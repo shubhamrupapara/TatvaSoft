@@ -1,7 +1,7 @@
 {
-  "name": "booksify",
+  "name": "Book Haven",
   "version": "1.0.0",
-  "description": "Booksify App",
+  "description": "Book Haven App",
   "main": "server.js",
   "type": "module",
   "engines": {
@@ -18,14 +18,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/niteshseram/Booksify.git"
+    "url": "git+https://github.com/niteshseram/Book Haven.git"
   },
   "author": "Nitesh Seram",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/niteshseram/Booksify/issues"
+    "url": "https://github.com/niteshseram/Book Haven/issues"
   },
-  "homepage": "https://github.com/niteshseram/Booksify#readme",
+  "homepage": "https://github.com/niteshseram/Book Haven#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "braintree": "^3.16.0",

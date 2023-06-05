@@ -12,7 +12,7 @@ const Meta = ({ title, description, keywords }) => {
 };
 
 Meta.defaultProps = {
-  title: "Welcome to Booksify",
+  title: "Welcome to Book Haven",
   description: "We sell the best books at one place",
   keywords: "books, best books, buy books, top books",
 };

@@ -1,12 +1,12 @@
-# Booksify
+# Book Haven
 
-Booksify is an online book store where you can buy your favorite books. It is built using MERN stack and Redux with paypal payment gateway.
+Book Haven is an online book store where you can buy your favorite books. It is built using MERN stack and Redux with paypal payment gateway.
 
 ## Here are some screenshot of the website
 
-![homepage](https://github.com/niteshseram/booksify/blob/main/uploads/homepage.JPG)
-![productpage](https://github.com/niteshseram/booksify/blob/main/uploads/productpage.JPG)
-![cartpage](https://github.com/niteshseram/booksify/blob/main/uploads/cartpage.JPG)
+![homepage](https://github.com/niteshseram/Book Haven/blob/main/uploads/homepage.JPG)
+![productpage](https://github.com/niteshseram/Book Haven/blob/main/uploads/productpage.JPG)
+![cartpage](https://github.com/niteshseram/Book Haven/blob/main/uploads/cartpage.JPG)
 
 ## Features
 
@@ -37,13 +37,13 @@ Booksify is an online book store where you can buy your favorite books. It is bu
 ### Clone the repo to your machine
 
 ```
-git clone https://github.com/niteshseram/Booksify.git
-cd Booksify
+git clone https://github.com/niteshseram/Book Haven.git
+cd Book Haven
 ```
 
 ### Env variables setup
 
-Create an .env file in the Booksify root directory and add the following
+Create an .env file in the Book Haven root directory and add the following
 
 ```
 NODE_ENV = development
