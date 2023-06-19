@@ -18,7 +18,7 @@ const Header = () => {
   };
   return (
     <header>
-      <Navbar bg="dark" variant="dark" expand="lg" collapseOnSelect>
+      <Navbar bg="primary" variant="dark"  expand="lg" collapseOnSelect>
         <Container>
           <LinkContainer to="/">
             <Navbar.Brand>Book Haven</Navbar.Brand>
@@ -26,16 +26,16 @@ const Header = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Route render={({ history }) => <SearchBox history={history} />} />
-            <Nav className="ml-auto">
-              <LinkContainer to="/cart">
-                <Nav.Link>
-                  <i className="fas fa-shopping-cart"></i> Cart
+            <Nav className="ml-auto" >
+              <LinkContainer to="/cart" className="text-white">
+                <Nav.Link >
+                  <i className="fas fa-shopping-cart "  ></i> Cart
                 </Nav.Link>
               </LinkContainer>
               {userInfo ? (
                 <NavDropdown title={userInfo.name} id="username">
                   <LinkContainer to="/profile">
-                    <NavDropdown.Item>Profile</NavDropdown.Item>
+                <NavDropdown.Item>Profile</NavDropdown.Item>
                   </LinkContainer>
                   <NavDropdown.Item onClick={logoutHandler}>
                     Logout

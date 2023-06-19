@@ -21,8 +21,9 @@ const SearchBox = ({ history }) => {
         onChange={(e) => setKeyword(e.target.value)}
         placeholder="Search Books..."
         className="search-box"
+        style={{ width: "500px" }}
       ></Form.Control>
-      <Button type="submit" variant="outline-success" className="p-2">
+      <Button type="submit" variant="secondary" className="p-10" style={{marginLeft: "50px" }}>
         Search
       </Button>
     </Form>
