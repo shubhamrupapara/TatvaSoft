@@ -2,11 +2,7 @@
 
 Book Haven is an online book store where you can buy your favorite books. It is built using MERN stack and Redux with paypal payment gateway.
 
-## Here are some screenshot of the website
 
-![homepage](https://github.com/niteshseram/Book Haven/blob/main/uploads/homepage.JPG)
-![productpage](https://github.com/niteshseram/Book Haven/blob/main/uploads/productpage.JPG)
-![cartpage](https://github.com/niteshseram/Book Haven/blob/main/uploads/cartpage.JPG)
 
 ## Features
 
@@ -37,8 +33,7 @@ Book Haven is an online book store where you can buy your favorite books. It is 
 ### Clone the repo to your machine
 
 ```
-git clone https://github.com/niteshseram/Book Haven.git
-cd Book Haven
+git clone https://github.com/shubhamrupapara/TATVASOFT.git
 ```
 
 ### Env variables setup
