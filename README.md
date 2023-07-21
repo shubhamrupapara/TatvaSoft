@@ -33,7 +33,7 @@ Book Haven is an online book store where you can buy your favorite books. It is 
 ### Clone the repo to your machine
 
 ```
-git clone https://github.com/shubhamrupapara/TATVASOFT.git
+git clone https://github.com/shubhamrupapara/TatvaSoft.git
 ```
 
 ### Env variables setup
